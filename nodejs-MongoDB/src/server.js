@@ -10,7 +10,5 @@ function startServer() {
         console.log("server is up and running");
     })
 }
-
-
 startServer();
 
