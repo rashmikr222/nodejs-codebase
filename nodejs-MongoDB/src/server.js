@@ -3,6 +3,8 @@ const config = require('./config')
 const expressApp = require('../src/express-app')
 const app = express()
 console.log("========>", config.PORT);
+// import database connection
+require('./database/connection').connect()
 
 function startServer() {
     expressApp(app)

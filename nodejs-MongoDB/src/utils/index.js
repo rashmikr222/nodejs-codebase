@@ -41,3 +41,16 @@ module.exports.GenerateSignature = (payload) => {
         console.log("======>", error)
     }
 }
+
+// password string
+// module.exports.CheckPassword = async (password) => {
+//     console.log("====password", password)
+//     // min 8 letter password, with at least a symbol, upper and lower case letters and a number
+//     let regularExpression = /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
+//     console.log("regular expression",regularExpression)
+//     if (!regularExpression.test(password)) {
+//         console.log("inside if")
+//         return false
+//     }
+// }
+
